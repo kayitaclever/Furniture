@@ -15,49 +15,277 @@
   border-width: 60%;
 }
 #Started{
+    padding: 20px;
     background-color: black;
     color: white;
-    border-width: medium;
+    font-weight: 700;
 }
 .page{
-    padding: 20px;
-    margin-bottom: 600px;
-
-
-  
+    padding: 0px;
 
 }
 #lights{
     float: left;
   width: 300px;
   height: 300px;
+  margin-top: 3%;
 }
-#chair{
+.make{
+    font-size: 20px;
+    font-weight: 600;
+}
+.chair img{
     float: right;
-    width: 680px ;
-    height: 300px;
+    width: 600px ;
 }     
 .page{
     padding: 10%;
 
 }
-.body{
-    display: flex;
-    font-display: 100px;
-    justify-content: space-between;
+
+
+.our{
+    font-size: 60px;
+    margin-top: 40%;
+    
+    
+}
+#column{
+    flex: 33.33%;
+    padding: 5px;
     float: right;
-    width: 1000px;
-    height: 300px;
-    margin-bottom: 1oopx;
+    width: 40.33%;
+    padding: 5px;
 }
 
+.furn img{
+    width: 400px;
+    margin-left: -10%;
+}
+.mafoto img{
+    margin-left: 35%;
+    margin-top: -45%;
+    width: 400px;
+}
+.tebe img{ 
+    margin-left: 80%;
+    margin-top: -45%;
+    width: 400px;
+}
+
+.white img{
+
+    margin-left: 15%;
+    margin-top: 12%;
+    width: 150px;
+}
+.black img{
+    width: 150px;
+    margin-left: 80%;
+    margin-top: -30%;
+}
+.Royal{
+    margin-left: 32%;
+    margin-top: -20%;
+    font-weight: 700;
+}
+.shop{
+    margin-left: 45%;
+    margin-top: -7%;
+}
 .words{
-    float: right;
-    display: flex;
-    justify-content: space-between;
-    
+    margin-left: -30%;
+    background-color: whitesmoke;
+}
+.pro{
+    font-size: 30px;
+}
+.ass{
+    margin-left: 19%;
+    margin-top: -32%;
+}
+.quality{
+    font-size: 30px;
+}
+.eco{
+    margin-left: 65%;
+    margin-top: -27%;
+}
+.high{
+    font-size: 30px;
     
 }
-.mafoto{
-    float: inline-start;
+.rec{
+    margin-top: 20%;
+    margin-left: -10%;
+}
+.gise{
+    font-size: 60px;
+}
+.here{
+    font-size: 20px;
+}
+.cle img{
+    width: 400px;
+    margin-left: 40%;
+    margin-top: -19%;
+
+}
+.cli img{
+    width: 350px;
+    margin-left: 35%;
+    margin-top: -50%;
+
+}
+.clo img{
+    width: 300px;
+    margin-left: 30%;
+    margin-top: -20%;
+}
+.but{
+    padding: 23px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+
+}
+.for{
+    margin-top: 20%;
+    margin-left: 10%;
+    font-size: 60px;
+}
+.l{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: -10%;
+    margin-top: -3%;
+}
+.c{
+    margin-left: 40%;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -3%;
+}
+.s{
+    margin-left: 80%;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -3%;
+}
+.provide{
+    margin-left: 30%;
+    font-size: 60px;
+    font-weight: 600;
+}
+.moja img{
+    width: 550px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.mbili img{
+width: 700px;
+margin-left: 60%;
+margin-top: -33%;
+}
+.tatu img{
+    width: 600px;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.tano img{
+    margin-left: 60%;
+    margin-top: -30%;
+}
+.shop{
+    margin-left: 75%;
+    padding: 20px;
+    margin-top: -20%;
+    background-color: white;
+    font-weight: 600;
+}
+.view{
+    margin-left: -40%;
+    margin-top: -10%;
+    width: 9%;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+.off{
+    width: 100%;
+    height: 40vh;
+    margin-left: 15%;
+    background-repeat: no-repeat;
+    background-image: url(images/mbili.jpg);
+}
+    
+.get{
+ font-size: 35px;
+ font-weight: 600;
+ margin-left: 3%;
+ 
+}
+input{
+    margin-left: 4%;
+    padding: 12px;
+    padding-left: 100px;
+    background-color: white;
+    border: white solid;
+}
+.subscribe{
+    background-color: black;
+    color: wheat;
+    margin-left: -5%;
+    padding: 8px;
+}
+.fun{
+    margin-top: 10%;
+}
+.fai{
+    font-size: 40px;
+}
+.fei{
+    font-size: 18px;
+
+}
+.geet{
+    margin-left: 27%;
+    margin-top: -15%;
+}
+.heelp{
+    font-size: 40px;
+
+}
+.suup{
+    font-size: 18px;
+}
+.port{
+    margin-left: 43%;
+    margin-top: -15%;
+
+}
+.oo{
+    font-size: 40px;
+}
+.uu{
+    font-size: 18px;
+}
+.load{
+    margin-left: 60%;
+    margin-top: -15%;
+}
+.app{
+    font-size: 40px;
+}
+.what{
+    font-size: 18px;
+}
+.twit{
+    margin-left: 2%;
+    margin-top: -1.5%;
+}
+.yout{
+    margin-left: 4%;
+    margin-top: -1.5%;
 }
